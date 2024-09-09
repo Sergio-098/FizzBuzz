@@ -10,12 +10,11 @@ class FizzBuzz {
         int i = 0;
 
         while (i < 100) {
-
             i = doFizzBuzz(i);
         }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         i++;
 
         // Find out which numbers divide i.
